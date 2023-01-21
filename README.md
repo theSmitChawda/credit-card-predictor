@@ -5,5 +5,5 @@ Algorithm: Random Forest
 
 Number of Trees: 200
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.safetysign.com%2Fproducts%2F4470%2Fcaution-in-progress-sign&psig=AOvVaw2Zlo4Avln87r3_FYPDKLZo&ust=1674424314699000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCODuuOfS2fwCFQAAAAAdAAAAABAD"></img>
 
+![G2379](https://user-images.githubusercontent.com/59838606/213888382-e11916e4-9a4e-4ed5-bbc9-6c3c94295d5b.png)
