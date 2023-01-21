@@ -16,3 +16,6 @@ df = df.dropna()
 
 # Finally check for the number of defaults in the datasets
 df['default'].value_counts()
+
+x = df.drop(['default'],axis=1)
+y = df['default']
