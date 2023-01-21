@@ -21,3 +21,10 @@ x = df.drop(['default'],axis=1)
 y = df['default']
 
 train_x, test_x, train_y, test_y = train_test_split(x, y, test_size=0.2, random_state=42)
+
+classifier = RandomForestClassifier(n_estimators=number_of_trees)
+classifier.fit(train_x, train_y)
+classifier.score(test_x,test_y)
+
+print("Prediction: ")
+print(classifier.predict(test_x))
