@@ -51,3 +51,10 @@ class ML_RandomForest:
         test_obj = np.array([[age,ed,employ,address,income,debtinc,creddebt,othdebt]])
         return classifier.predict(test_obj)
     
+    def predict_verbose(self, age, ed, employ, address, income, debtinc, creddebt, othdebt):
+        pred = self.predict(age, ed, employ, address, income, debtinc, creddebt, othdebt)
+        if pred==0:
+            print('The user is NOT expected to default on the payments')
+        else:
+            print('The user is expected to default on the payments')
+        
