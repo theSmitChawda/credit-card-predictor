@@ -8,6 +8,13 @@ from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
 
+# HOW TO USE:
+    # 1. Create an object of the class
+    #       m1 = ML_RandomForest()
+    # 2. Use either predict() function OR predict_verbose() function as required
+    #       prediction = m1.predict(33,1,9,4,29,13.8,1.348674,2.653326)
+    #       m1.predict_verbose(33,1,9,4,29,13.8,1.348674,2.653326)
+
 class ML_RandomForest:
     df=0
     x=0
