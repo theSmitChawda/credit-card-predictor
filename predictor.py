@@ -28,3 +28,6 @@ classifier.score(test_x,test_y)
 
 print("Prediction: ")
 print(classifier.predict(test_x))
+
+val_score = cross_val_score(estimator=classifier,X=train_x, y=train_y,cv=10)
+val_score.mean()
